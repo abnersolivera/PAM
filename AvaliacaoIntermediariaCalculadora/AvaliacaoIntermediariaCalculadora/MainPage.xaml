@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AvaliacaoIntermediariaCalculadora.MainPage">
+
+    <ScrollView>
+        <StackLayout BackgroundColor="#504B4B">
+            <Label Text="Número" TextColor="#FFFFFF"/>
+            <Entry x:Name="txtNumero" Keyboard="Numeric" Placeholder="Número" BackgroundColor="#FFFFFF"/>
+            <Label Text="Outro Número" TextColor="#FFFFFF"/>
+            <Entry x:Name="txtOutroNumero" Keyboard="Numeric" Placeholder="OutroNúmero" BackgroundColor="#FFFFFF"/>
+            <Button x:Name="btnSomar" Text="Somar" Clicked="BtnSomar_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+            <Button x:Name="btnSubtrair" Text="Subtrair" Clicked="btnSubtrair_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+            <Button x:Name="btnMultiplicar" Text="Multiplicar" Clicked="btnMultiplicar_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+            <Button x:Name="btnDivisao" Text="Divisão" Clicked="btnDivisao_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+            <Button x:Name="btnParImpar" Text="Par ou Impar" Clicked="btnParImpar_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+            <Button x:Name="btnComparar" Text="Comparar" Clicked="btnComparar_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+            <Button x:Name="btnPotenciacao" Text="Potência" Clicked="btnPotenciacao_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+            <Button x:Name="btnPorcentagem" Text="Porcentagem" Clicked="BtnPorcentagem_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+            <Button x:Name="btnAreaRetangulo" Text="Area Retangulo" Clicked="BtnAreaRetangulo_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+            <Button x:Name="btnAreaTriangulo" Text="Area Triangulo" Clicked="btnAreaTriangulo_Clicked" BackgroundColor="#272729" TextColor="#FFFFFF"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
